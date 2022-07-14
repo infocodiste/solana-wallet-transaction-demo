@@ -1,0 +1,272 @@
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1145px;
+    }
+}
+
+@media (max-width:1199.98px){
+    header .navbar-nav a:not(.btn-primary), header .btn-primary{
+        font-size: 11px;
+    }
+    header .navbar-nav {
+        margin-left: 5px;
+    }
+    .LandingPage ul.social-icon {  
+        left: 0%;
+    }
+    .bannerSocialMain ul.social-icon li {
+        margin: 0 !important;
+    }
+    .bannerSocialMain ul.social-icon a img {
+        width: 70%;
+    }
+
+}
+@media (max-width:991.98px){
+    .launchTimer .timerMain .part::after {
+        bottom: -29px;
+        font-size: 14px;
+    }
+    .launchTimer .timerMain .part {
+        width: 100px;
+        height: 85px;
+        font-size: 60px;
+    }
+  
+    .landingbannerlogo > img {
+        width: 50%;
+    }
+    .LandingPage ul.social-icon img {
+        width: 80%;
+    }
+    ul.social-icon li {
+        margin: 0;
+    }
+    .launchTimer .timerMain .part::after {
+        bottom: -25px;
+        font-size: 12px;
+    }
+    .launchTimer .timerMain .part {
+        width: 80px;
+        height: 65px;
+        font-size: 50px;
+    }
+    .tableCustom .table tr td,.tableCustom .table tr th{
+        font-size: 15px;
+    }
+    .LandingPage h5 {
+        font-size: 22px !important;
+    }
+    footer h4 {
+        font-size: 30px;
+    }
+    ul.social-icon li a img {
+        width: 80%;
+    }
+    footer p {
+        font-size: 12px !important;
+    }
+    /* .LandingPage .row.gradient-bg {
+        margin-top: 50px;
+    } */
+    .offcanvas{
+        background-color: #14173a;
+    }
+   
+    .btn-close{
+        background: transparent url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23000%27%3e%3cpath d=%27M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z%27/%3e%3c/svg%3e) center/1.5em auto no-repeat;
+        border: 0;
+        background-color: #ff7820;
+        margin: 0 !important;
+    }
+   
+    .offcanvas .btn-primary {
+        margin-bottom: 20px;
+        order: 1;
+    }
+    .offcanvas .nav-link {
+        padding: 5px 0;
+        color: #ffffff;
+        font-size: 15px;
+        text-align: center;
+    }
+    .offcanvas .btn-primary:first-child {
+        margin-top: 30px;
+    }
+    .offcanvas-header {
+        background: linear-gradient(270deg, rgba(32, 48, 104, 0.2226) 1.56%, rgba(241, 243, 250, 0.2226) 49.48%, rgba(18, 26, 52, 0.4134) 100%);
+        box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+        margin-bottom: 20px;
+    }
+    .offcanvas .nav-link:hover, .offcanvas .nav-link.active, .offcanvas .nav-link:focus{
+        color: #E02323 !important;
+    }
+    header .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: 0;
+    }
+    header .navbar-light .navbar-toggler {
+        background-color: #626a89;
+    }
+    h2 {
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    h3 {
+        font-size: 40px;
+        margin: 20px 0;
+    }
+    .gradient-bg {
+        padding: 30px;
+    }
+    .Roadmap ul li, .Roadmap p, .Whitepaper p, .Tokenomics pp {
+        font-size: 17px !important ;
+    }
+    .Roadmap ul li.text-red {
+        font-size: 24px;
+    }
+    .Roadmap h5 {
+        font-size: 22px !important;
+    }
+    .bannerLogo img {
+        width: 220px;
+    }
+    .bannerSocialMain {
+        margin-top: -40px !important;
+    }
+    .bannerMain {
+        padding: 0 20px !important;
+    }
+    .poolCandidateMain {
+        padding: 0 20px !important;
+    }
+    .donatedMain {
+        padding: 0 20px !important;
+    }
+    .mx-8{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .launchTimer h2 {
+        margin: 20px 0;
+    }
+}
+@media (max-width:767.98px){
+    /* .LandingPage ul.social-icon {
+        left: 0%;
+        position: relative;
+        top: -70px;
+    } */
+    .launchTimer h2 {
+        font-size: 29px;
+        margin: 20px 0;
+    }
+    /* .LandingPage .launchTimer {
+        position: relative;
+        width: 100%;
+        bottom: 85px;
+    } */
+    .LandingPage .learn-more {
+        margin-top: 0;
+        padding: 30px;
+    }
+    .tableCustom .table tr td, .tableCustom .table tr th {
+        font-size: 12px;
+    }
+    .LandingPage h5 {
+        font-size: 19px !IMPORTANT;
+    }
+    footer h4 {
+        font-size: 28px;
+    }
+    ul.social-icon li a img, .LandingPage ul.social-icon img {
+        width: 70%;
+    }
+    ul.social-icon {
+        margin: 20px 0;
+    }
+    footer {
+        margin: 30px 0;
+    }
+    h2 {
+        font-size: 30px;
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 0;
+        max-width: 100%;
+    }
+    .gradient-bg {
+        padding: 10px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    .Roadmap ul li, .Roadmap p, .Whitepaper p, .Tokenomics p{
+        font-size: 14px !important;
+    }
+    .Roadmap h5 {
+        font-size: 18px !important;
+    }
+    .buyTokenlogo {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:575.98px){
+    .launchTimer .timerMain .part {
+        width: 60px;
+        height: 45px;
+        font-size: 40px;
+    }
+    /* .LandingPage ul.social-icon {
+        top: -47px !important;
+    } */
+    .LandingPage .learn-more {
+        padding: 25px !important;
+    }
+    .LandingPage .learn-more p:first-child {
+        font-size: 15px !important;
+    }
+    .LandingPage .learn-more p {
+        font-size: 9px !important;
+    }
+    .LandingPage h5 {
+        font-size: 18px !IMPORTANT;
+    }
+    footer h4 {
+        font-size: 25px;
+    }
+    ul.social-icon li a img, .LandingPage ul.social-icon img {
+        width: 65%;
+    }
+    footer p {
+        font-size: 10px !important;
+    }
+    /* .LandingPage .row.gradient-bg {
+        margin-top: 30px;
+    } */
+    .launchTimer .timerMain .part::after {
+        bottom: -21px;
+        font-size: 10px;
+    }
+    .launchTimer .timerMain .part .line {
+        margin-top: -1px;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .buyTokenMain {
+        background-color: transparent !important;
+        padding: 0 !important;
+    }
+    .buyTokenBG {
+        padding: 15px !important;
+    }
+}
